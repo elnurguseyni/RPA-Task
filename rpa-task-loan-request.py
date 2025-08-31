@@ -96,7 +96,7 @@ for idx, row in customers.iterrows():
          "New Account Number": new_acc_number,
          "Initial Deposit": row["Initial Deposit"],
          "Loan Requested (USD)": 10000,
-         "Down Payment (USD)": 2000,
+         "Down Payment (USD)": down_payment,
          "Loan Status": loan_status,
          "Loan in EUR": round(10000*0.82, 2)
 
